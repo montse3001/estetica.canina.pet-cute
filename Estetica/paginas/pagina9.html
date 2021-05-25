@@ -1,0 +1,111 @@
+<!DOCTYPE html>		<!--Declara el tipo de documento-->
+
+<!--González Ramírez Selene Montserrat-->
+<!--15 de Abril 2021-->
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8"/>		<!--Etiqueta meta-->
+<title>FORMULARIO PET-CUTE</title>	
+</head>
+
+<body bgcolor="Tan">		<!--Etiqueta que cambia el color de fondo de la pantalla-->
+	<h1> <font color="SaddleBrown"> Pet-Cute </font> </h1>
+	<p> Llene este formulario para obtener los datos del carnet de su mascota </para>	<!--Instrucciones-->
+
+	<h3>DATOS DEL PROPIETARIO</h>
+	<p> <label>Nombre del dueño de la mascota:
+	<input name="nombre" type="text" name="redirigir" size="20">
+	</label>
+	</p>
+
+	<p> <label>Teléfono de contacto:
+	<input name="Teléfono" type="number" size="10" >
+	</label>
+	</p>
+
+	<p> <label>Dirección de correo electrónico:
+	<input name="email" type="password" size="30" >
+	</label>
+	</p>
+
+	<p> <label>Dirección: <br>
+	<textarea name="Dirección" rows="4" cols="50">Dirección del dueño en caso de extravío de la mascota</textarea>
+	</label>
+	</p>
+
+	<h3>DATOS DE LA MASCOTA</h3>
+	<p>
+	<strong>Especie de la mascota</strong> <br>
+	<label> Perro
+	<input name="Especie"type="radio" value="Perro" checked>
+	</label>
+	<label> Gato
+	<input name="Especie"type="radio" value="Gato" >
+	</label>
+	</p>
+
+	<p> <label>Nombre de la mascota:
+	<input name="nombre" type="text" name="redirigir" size="20">
+	</label>
+	</p>
+
+	<p> <label>Raza de la mascota:
+	<input name="Raza" type="text" name="redirigir" size="20" >
+	</label>
+	</p>
+
+	<p> <label>Edad de la mascota:
+	<input name="Edad" type="number" name="redirigir" size="5">
+	</label>
+	</p>
+
+	<p> <label>Seleccione el color de su mascota:
+	<input name="color" type="color" value="#f3f3f3"/>
+	</label>
+	</p>
+
+	<p>
+	<strong>¿Su mascota cuenta con pedigree?</strong> <br>
+	<label>Si
+	<input name="Decisión"type="radio" value="Si" checked>
+	</label>
+	<label>No
+	<input name="Decisión"type="radio" value="No" >
+	</label>
+	</p>
+
+	<p>
+	<strong>Sexo de la mascota</strong> <br>
+	<label>Hembra
+	<input name="Sexo"type="radio" value="Hembra" checked>
+	</label>
+	<label>Macho
+	<input name="Sexo"type="radio" value="Macho">
+	</label>
+	</p>
+
+	<p> <label> Descripción: <br>
+	<textarea name="Descripcion" rows="4" cols="50">Describe aquí los rasgos físicos de tu mascota</textarea>
+	</label>
+	</p>
+
+	<p>
+	<label>¿Cómo le parece nuestro servicio?
+	<select name=" Calificación">
+	<option selected >Excelente</option>
+	<option>Bueno</option>
+	<option>Regular</option>
+	<option>Malo</option>
+	</select>
+	</label>
+	</p>
+
+	<p>
+	<input type="submit"value="Enviar">
+	<input type="reset"value="Borrar">
+	</p>
+	</form>
+	</body>
+	</html>
+

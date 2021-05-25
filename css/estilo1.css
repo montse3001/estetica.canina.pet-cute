@@ -1,0 +1,82 @@
+body{
+	background-color: #CB7E2B; 
+}
+marquee{
+	font-family: fantasy;
+	background: white;
+	border: 4px;
+	color: black;
+	font-size: 25px;
+}
+h2{
+	font-family: monospace;
+	font-size: 70px;
+	text-align: center;
+	-webkit-text-stroke: 3px white;
+}
+.formulario{
+	color: white;
+	-webkit-text-stroke: 1px black;
+	font-size: 50px;
+	text-align: right;			/*alineacion de texto*/
+}
+h3{
+	font-family: century gothic;
+	font-size: 35px;
+	text-align: center;
+	color: white;
+}
+td{
+	text-align: center;				/*alineacion dl texto*/
+	background-color:#B6B5B3;			/*color de fondo de la tabla*/ 
+}
+p{
+	font-family: arial black;			/*tipo de letra*/
+	font-size: 20px;					/*tamaño de letra*/
+	-webkit-text-stroke: 0.5px white;
+}
+table{
+	border-color: black;				/*Color del borde de la tabla*/
+	font-size: 20px;					/*tamaño de letra*/
+	font-family: verdana;				/*tipo de letra*/
+}
+a{
+	text-decoration: none;
+}
+.tamaño_texto{
+	font-family: Arial black;
+	font-size: 20px;   /*tamaño de letra-*/
+	color: black;				/*color de texto*/
+	background: white; 
+}
+.titulo{
+	font-family: verdana;
+	-webkit-text-stroke: 3px black;
+	font-size: 60px;
+	text-align: center;
+	color: white;
+}
+.caja1{										/*creacion de una nueva clase*/
+	background: white;			/*Color de fondo de la caja*/
+	width: 1200px;						/*ancho de la caja*/
+	height: 50px;						/*Largo de la caja*/
+	padding: 15px;						/*Establece el esacio de relleno requerido por todos los lados de elemento*/
+	border: transparent;			/*Sus dimesiones cuentan para el tamaño total*/
+	margin: 5px;						/*Establece el margen para los 4 lados del elemento*/
+	outline: 5px solid white;			/*sus dimensiones no para el tamaño total*/
+	text-align: center;					/*teto de la caja centaro*/
+	font-style: italic;					/*Tipo de fente o tipo de letra*/
+	font-size: 18px;
+}
+.caja2{										/*creacion de una nueva clase*/
+	background: white;			/*Color de fondo de la caja*/
+	width: 1200px;						/*ancho de la caja*/
+	height: 90px;						/*Largo de la caja*/
+	padding: 15px;						/*Establece el esacio de relleno requerido por todos los lados de elemento*/
+	border: transparent;			/*Sus dimesiones cuentan para el tamaño total*/
+	margin: 5px;						/*Establece el margen para los 4 lados del elemento*/
+	outline: 5px solid white;			/*sus dimensiones no para el tamaño total*/
+	text-align: center;					/*teto de la caja centaro*/
+	font-style: italic;					/*Tipo de fente o tipo de letra*/
+	font-size: 18px;
+}
